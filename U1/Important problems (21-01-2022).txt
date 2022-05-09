@@ -1,0 +1,34 @@
+sorting :
+
+- helps searching
+- algorithms often use sorting as a subroutine
+- e.g.; selection, bubble, insertion, merge, heap
+- evaluated based on number of key comparisons
+- stability : accuracy
+- in place : excess memory unnecessary
+
+searching
+
+string processing
+
+graph processing :
+
+- shortest path
+- minimum cost topologies
+
+geometry :
+
+- closest pair
+- convex hull
+
+time complexity calculation :
+
+- step count method :
+	
+	- count the number of steps (by global variable usually)	
+	- express it as a function of input size
+
+space complexity :
+	
+	- sum of fixed path & variable path
+	- instruction/input space is constant 

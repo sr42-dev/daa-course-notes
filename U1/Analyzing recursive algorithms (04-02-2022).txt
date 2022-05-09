@@ -1,0 +1,14 @@
+steps to analysis :
+
+- decide on parameter n indicating input size
+- identify basic operation
+- if basic operation execution count depends on input size, find worst, avg & best case efficiency, else normal efficiency
+- set up recurrence relation
+- solve recurrence & estimate order of magnitude of the solution
+
+
+
+
+
+
+

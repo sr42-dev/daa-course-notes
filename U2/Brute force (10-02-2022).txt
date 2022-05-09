@@ -1,0 +1,45 @@
+general :
+
+- directly based on inputs for the problem statement
+- try every single input to get the necessary output
+
+- divisors of natural number n : to check every number from 1 to n
+- 8 queens puzzle : examine each positioning possible on the board and check if an attack is possible
+- linear search
+
+- selection sort : 
+	
+	- swap the next smallest element with the first, same with the second and so on
+	- loop repeats until no smaller element is present to the right
+
+	- for i to n-2
+
+		min <- i
+		
+		for j = i+1 to n-1
+
+			if a[j] < a[min]
+
+				min <- j
+
+			swap a[i] & a[min]
+
+	- not stable as a swap is made at every iteration
+
+- stable sorting : when the order of identical elements is maintained
+
+- sequential search :
+
+	- i <- 0
+
+	  while i < n and a[i] != key
+	
+		i <- i + 1
+
+	  in i < n return i
+	  else return -1
+
+	- 
+
+			
+

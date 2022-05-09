@@ -1,0 +1,17 @@
+general :
+
+- tower of hanoi is an exponentially time complex problem
+- travelling salesman problem : O(n!), np complete
+- a problem is NP-complete when: it is a problem for which the correctness of each solution can be verified quickly and a brute-force search algorithm can actually find a solution by trying all possible solutions
+
+-  steps for analysis :
+	
+	- understand the problem
+	- decide on computational means
+	- decide on exact v/s appx solution
+	- data structures e.g.; dijkstra's algorithm
+	- algorithm design technique
+	- design algorithm
+	- prove correctness : finite time/within a margin of error
+	- analyze : efficient, simple & general
+	- code

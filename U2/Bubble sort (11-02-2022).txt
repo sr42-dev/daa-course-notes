@@ -1,0 +1,25 @@
+general :
+
+- swapping elements in place taking one element at a time
+- comparison is done only with the very next element
+- swaps are done if the next element is smaller than the one being evaluated
+- when the next element is larger, pointer is reset to first element and loop is repeated
+
+- each iteration in an array of n elements does n-i comparisons (nested loop)
+- aka sink sort
+- basic operation : comparison
+
+- for i <- 0 to n-2
+	
+	for j <- 0 to n-2-i
+
+		if a[j+1] < a[j]
+
+			swap a[j] and a[j+1]
+
+- can be made more efficient by setting flag before each for loop
+
+	- flag is set to 1 when swap doesn't occur
+	- therefore the loop can be skipped from that point as when a swap doesn't occur, it means the element has reached it's final position
+
+

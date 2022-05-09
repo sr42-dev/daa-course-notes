@@ -1,0 +1,17 @@
+general :
+
+- compare each corresponding character 
+- when a match is found, increment index
+- when inequality is found, exit loop
+- if match is found till /0 or end of key string, then the whole pattern is matched
+
+- for i; i<=n-m; i++
+	
+	j = 0
+	n = strlen(txt); text
+	m = strlen(pat); key
+	while j < m && pat[j] == txt[i+j]
+
+		j += 1
+
+	if (j == m) return i; // match case

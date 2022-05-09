@@ -1,0 +1,10 @@
+limit method :
+
+- lim(n->inf) t(n)/g(n)
+	
+	- 0; t(n) < g(n); big oh notation
+	- c; t(n) = g(n); big theta notation
+	- inf; t(n) > g(n); big omega notation
+
+- theorem : if t1(n) E O(g1(n)) and t2(n) E O(g2(n)), t1(n) + t2(n) E O(max(g1(n), g2(n)))
+

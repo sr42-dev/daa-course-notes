@@ -1,0 +1,15 @@
+steps to analysis :
+
+- find the input size i.e.; the (fewest number of) singular value(s) that can be used to describe the size of the input
+- find the most basic operation that consumes time e.g.; contained in the innermost loop
+- find the number of iterations for any given input
+- express the total time taken for execution wrt input size
+
+- find best, worst & average case efficiency (if equal, find general time efficiency)
+- consequently, you get time complexity by simplifying using standard formulae
+
+summations : <revise mathematics>
+
+
+
+

@@ -1,0 +1,14 @@
+introduction :
+
+- algorithms : defined procedures/rules to solve a partiular problem
+- non ambiguous
+- finite amount of time
+- range of inputs formalized
+- formalizing algorithms help deepen understanding
+
+problems :
+
+- old world problem : man, cabbage, goat, wolf
+- new world problem : 4 people, 1 flashlight
+- 12 marbles, 1 odd (heavy/light) : find odd one out in 3 balancings
+- given an A4 paper, make a hole big enough for a human
